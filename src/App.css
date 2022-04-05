@@ -1,0 +1,30 @@
+.App{
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+}
+.App::after, .App::before{
+  
+      position: fixed;
+      height: 5px;
+      width: 100%;
+      content: "";
+      z-index: 999;
+      background-color: rgb(246, 140, 31);
+
+}
+.App:after {
+  bottom: 0;
+  
+}
+.wrapper::after,.wrapper::before{
+  position: fixed;
+  height: 100vh;
+  width: 5px;
+  content: "";
+  z-index: 999;
+  top: 0;
+  background-color: rgb(246, 140, 31);
+}
+.wrapper::after{
+  right:0;
+}

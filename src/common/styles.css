@@ -1,0 +1,351 @@
+/*.App{
+    background-color: #f8f9fa;
+}
+.App::after, .App::before{
+    
+        position: fixed;
+        height: 5px;
+        width: 100%;
+        content: "";
+        z-index: 999;
+        background-color: rgb(246, 140, 31);
+
+ }
+.App:after {
+    bottom: 0;
+    
+}
+.wrapper::after,.wrapper::before{
+    position: fixed;
+    height: 100vh;
+    width: 5px;
+    content: "";
+    z-index: 999;
+    top: 0;
+    background-color: rgb(246, 140, 31);
+}
+.wrapper::after{
+    right:0;
+} */
+
+
+
+/* login */
+
+.login{
+    /* background-color: #d2d6de; */
+    width:100%;
+    height:auto;
+    padding:18% 0;
+}
+.login-form{
+    display:block;
+    /* border: 2px solid #000; */
+    padding:30px;
+    background-color: #fff;
+    border-top: 4px solid #3c8dbc;   
+    width:360px;
+    margin-left: 15%;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.form-control{
+    margin-bottom:20px;
+ border-radius: 0;
+ box-shadow: none;
+ border-color: #d2d6de;
+ display: block;
+ width: 95%;
+ /* height: 34px; */
+ padding: 6px 12px;
+ font-size: 14px;
+ line-height: 1.42857143;
+ color: #555;
+ background-color: #fff;
+ background-image: none;
+ border: 1px solid #ccc;
+}
+.form-control:hover{
+    border: 1px solid #3c8dbc !important;
+   
+}
+.forgot{
+    margin-top: -10px;
+    text-decoration: none;
+    text-align: right;
+}
+.btn{
+    padding:6px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #3c8dbc;
+    border-color: #367fa9;
+    color:#fff;
+    border: 1px solid transparent;
+    border-radius:3px;
+}
+
+@media screen and (max-width: 1100px){
+
+    .left-sidebar{
+        /* display:none; */
+    }
+    }
+
+/* header */
+@media screen and (max-width: 480px){
+
+    .css-i9gxme{
+        margin-left: 30px;
+    }
+    }
+    
+    .css-hip9hq-MuiPaper-root-MuiAppBar-root{
+        background-color: #fff !important;
+        color:#000 !important;
+        /* box-shadow: 0px !important; */
+    }
+    .css-1kcggdq-MuiInputBase-root .MuiInputBase-input{
+        border:1px solid #ededed !important;
+        border-radius: 10px !important;
+    }
+
+
+/* footer */
+
+.my-footer{
+    background-color: #000;
+    color:#fff;
+    width: 100%;
+    height:50px;
+    text-align: center;
+   padding-top: 10px;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    /* position : absolute;
+    bottom : 0; */
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* left sidebar */
+.user-details{
+    padding:20px;
+}
+
+.makeStyles-item-2{
+    display: block !important;
+}
+.css-15v22id-MuiAccordionDetails-root{
+    padding:0px !important;
+}
+
+/* tabbar */
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    min-width: 20px !important;
+    padding: 12px 10px !important;
+}
+
+
+/* user dropdown */
+.left-sidebar{
+    height:100vh;
+    width:250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* sidebar */
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded{
+    margin:-16px 0 !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+    padding:0 20% 0 0!important;
+    min-height: 30px !important;
+}
+.css-13xfq8m-MuiTabPanel-root{
+    padding:0  !important;
+}
+
+
+.left-sidebar::-webkit-scrollbar{ display: none;}    /* Hide scrollbar for Chrome, Safari and Opera */
+.left-sidebar{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;       /* Firefox */
+  
+
+}
+   
+/* active link */
+
+.active{
+    background-color: rgb(246, 140, 31);
+    /* font-size: 30px; */
+    height:40px;
+    padding-top:10px;
+    color:#fff !important;
+    /* margin-left:-40px; */
+    padding-left: 10px;
+}
+
+
+/* pages */
+.page{
+    padding:"50px 10%";
+}
+
+/* Employees */
+
+.employees-list{
+    width:100%;
+ }
+ 
+ 
+ 
+ .employees-list td{
+     border: 1px solid #f4f4f4;
+     width:200px;
+     text-align: center;
+ }
+ .employees-list table{
+     margin:0 auto;
+ }
+ 
+ .employees-list th{
+        border: 1px solid #f4f4f4;
+     width:200px;
+ }
+ 
+ .excel{
+     border:1px solid;
+      padding: 1px 6px;
+     border-radius: 2px;
+     margin-right: 3px;
+     font-size: 14px;
+ 
+ }
+ .hrms-card{
+    /* margin:30px 10%; */
+    background-color: #fff;
+    border-top : 3px solid #3c8dbc;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    padding: 20px;
+
+}
+.add-employee{
+    text-align: right;
+}
+.hrms-btn{
+    padding:6px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #3c8dbc;
+    border-color: #367fa9;
+    color:#fff;
+    border: 1px solid transparent;
+    border-radius:3px;
+   
+    
+}
+.divider{
+    width:100%;
+    height:0.5px;
+    background-color:#f4f4f4;
+    /* background-color:red */
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+
+.btn-success{
+    background-color: green;
+    height:30px;
+    color:#fff;
+    padding-top:4px;
+    border-radius: 5px;
+}
+.btn-failed{
+    background-color: rgb(214, 30, 30);
+    height:30px;
+    color:#fff;
+    padding-top:4px;
+    border-radius: 5px;
+}
+
+
+/* sign up */
+
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    /* width:100% !important; */
+    width:2000px;
+    overflow-x: hidden !important;
+    max-width: auto;
+    max-height: auto;
+}
+.education{
+    margin: 20px;
+    /* width:%; */
+    border-top: 3px solid #3c8dbc;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    margin-bottom: 20px;
+}
+
+.personal-form{
+    padding:20px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border-top: 3px solid #d2d6de;
+    font-size: 14px;
+}
+
+
+/* Clients */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+    height:40px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+
+.form-check-input:checked {
+    background-color: #f68c1f;
+    border-color:#f68c1f;
+}
+.social-media{
+    display:flex;
+    padding:10px;
+    justify-content: space-around;
+}
+.social-icon{
+    color:#0d6efd
+}
